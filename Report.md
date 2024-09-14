@@ -16,4 +16,40 @@ For Azure, I navigated to the Azure portal and set up a new VM using the Azure f
 ![Azure VM Creation](VM-GCP&Azure-Screenshots/Azure-VM-Creation.png)
 
 
+### 2. Configuring the VM
+
+I chose the recommended security and architecture settings. I didn’t use the Azure Spot Discount because im not sure if thats what I needed and if it would cost more.
+
+![Azure VM Configuration](VM-GCP&Azure-Screenshots/Azure-VM-Configuration.png)
+
+### 3. Challenges Encountered
+While setting up the VM, I ran into a validation error, which meant some settings were missing or incorrect. I had to go back and double-check everything to make sure all the required fields were filled out properly.
+
+![Azure VM Error](VM-GCP&Azure-Screenshots/Azure-VM-Error.png)
+
+## GCP VM Configuration
+
+### 1. Creating the Virtual Machine
+On GCP, I set up a new VM with a focus on keeping costs low while still having enough resources for basic use:
+
+- **Machine Type**: e2-medium (2 vCPUs, 4 GiB memory)  
+  *Why*: This type is budget-friendly and works well for general tasks like development, testing, or running small applications.
+
+- **Boot Disk**: Debian GNU/Linux 12 (bookworm), 10 GB standard persistent disk  
+
+![GCP VM Creation](VM-GCP&Azure-Screenshots/GCP-VM-Creation.png)
+
+### 2. Configuring the VM
+For this setup, I used the default access settings and allowed HTTP traffic so I could test web apps easily.
+
+![GCP VM Configuration 1](VM-GCP&Azure-Screenshots/GCP-VM-Configuration1.png)
+![GCP VM Configuration 2](VM-GCP&Azure-Screenshots/GCP-VM-Configuration2.png)
+
+### 3. Challenges Encountered
+The setup was smooth with no major issues. I used monitoring tools to keep an eye on the VM and make sure it was working correctly. I actually prefered working GCP's layout compared to Azures which looked a bit more daunting.
+
+![GCP VM Running](VM-GCP&Azure-Screenshots/GCP-VM-Running.png)
+
+
+
 
