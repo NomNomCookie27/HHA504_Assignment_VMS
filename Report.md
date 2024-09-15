@@ -54,6 +54,7 @@ The setup was smooth with no major issues. I used monitoring tools to keep an ey
 
 After running the GCP virtual machine, the cost incurred was very low. The total cost recorded from September 1 to 15, 2024, was $0.02. This low cost highlights the efficiency of using the chosen VM configuration  for basic tasks and testing, making it a cost-effective option for projects or development environments. The pay-as-you-go model used by GCP makes sure that you only pay for what you use, keeping expenses manageable even with continuous usage for learning and testing purposes.
 
+![GCP VM Cost](VM-GCP&Azure-Screenshots/GCP-VM-Cost.png)
 
 
 
